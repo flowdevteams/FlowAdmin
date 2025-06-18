@@ -446,7 +446,7 @@ function zeroFill(number, targetLength, forceSign) {
 }
 
 var formattingTokens =
-        /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|N{1,5}|YYYYYY|YYYYY|YYYY|YY|y{2,4}|yo?|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g,
+        /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|N{1,5}|FlowAdminFlowAdmin|FlowAdmin|FlowAdmin|YY|y{2,4}|yo?|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g,
     localFormattingTokens = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g,
     formatFunctions = {},
     formatTokenFunctions = {};
@@ -548,10 +548,10 @@ function expandFormat(format, locale) {
 var defaultLongDateFormat = {
     LTS: 'h:mm:ss A',
     LT: 'h:mm A',
-    L: 'MM/DD/YYYY',
-    LL: 'MMMM D, YYYY',
-    LLL: 'MMMM D, YYYY h:mm A',
-    LLLL: 'dddd, MMMM D, YYYY h:mm A',
+    L: 'MM/DD/FlowAdmin',
+    LL: 'MMMM D, FlowAdmin',
+    LLL: 'MMMM D, FlowAdmin h:mm A',
+    LLLL: 'dddd, MMMM D, FlowAdmin h:mm A',
 };
 
 function longDateFormat(key) {
@@ -869,20 +869,20 @@ addFormatToken(0, ['YY', 2], 0, function () {
     return this.year() % 100;
 });
 
-addFormatToken(0, ['YYYY', 4], 0, 'year');
-addFormatToken(0, ['YYYYY', 5], 0, 'year');
-addFormatToken(0, ['YYYYYY', 6, true], 0, 'year');
+addFormatToken(0, ['FlowAdmin', 4], 0, 'year');
+addFormatToken(0, ['FlowAdmin', 5], 0, 'year');
+addFormatToken(0, ['FlowAdminFlowAdmin', 6, true], 0, 'year');
 
 // PARSING
 
 addRegexToken('Y', matchSigned);
 addRegexToken('YY', match1to2, match2);
-addRegexToken('YYYY', match1to4, match4);
-addRegexToken('YYYYY', match1to6, match6);
-addRegexToken('YYYYYY', match1to6, match6);
+addRegexToken('FlowAdmin', match1to4, match4);
+addRegexToken('FlowAdmin', match1to6, match6);
+addRegexToken('FlowAdminFlowAdmin', match1to6, match6);
 
-addParseToken(['YYYYY', 'YYYYYY'], YEAR);
-addParseToken('YYYY', function (input, array) {
+addParseToken(['FlowAdmin', 'FlowAdminFlowAdmin'], YEAR);
+addParseToken('FlowAdmin', function (input, array) {
     array[YEAR] =
         input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
 });
@@ -2374,19 +2374,19 @@ var extendedIsoRegex =
         /^\s*((?:[+-]\d{6}|\d{4})(?:\d\d\d\d|W\d\d\d|W\d\d|\d\d\d|\d\d|))(?:(T| )(\d\d(?:\d\d(?:\d\d(?:[.,]\d+)?)?)?)([+-]\d\d(?::?\d\d)?|\s*Z)?)?$/,
     tzRegex = /Z|[+-]\d\d(?::?\d\d)?/,
     isoDates = [
-        ['YYYYYY-MM-DD', /[+-]\d{6}-\d\d-\d\d/],
-        ['YYYY-MM-DD', /\d{4}-\d\d-\d\d/],
+        ['FlowAdminFlowAdmin-MM-DD', /[+-]\d{6}-\d\d-\d\d/],
+        ['FlowAdmin-MM-DD', /\d{4}-\d\d-\d\d/],
         ['GGGG-[W]WW-E', /\d{4}-W\d\d-\d/],
         ['GGGG-[W]WW', /\d{4}-W\d\d/, false],
-        ['YYYY-DDD', /\d{4}-\d{3}/],
-        ['YYYY-MM', /\d{4}-\d\d/, false],
-        ['YYYYYYMMDD', /[+-]\d{10}/],
-        ['YYYYMMDD', /\d{8}/],
+        ['FlowAdmin-DDD', /\d{4}-\d{3}/],
+        ['FlowAdmin-MM', /\d{4}-\d\d/, false],
+        ['FlowAdminFlowAdminMMDD', /[+-]\d{10}/],
+        ['FlowAdminMMDD', /\d{8}/],
         ['GGGG[W]WWE', /\d{4}W\d{3}/],
         ['GGGG[W]WW', /\d{4}W\d{2}/, false],
-        ['YYYYDDD', /\d{7}/],
-        ['YYYYMM', /\d{6}/, false],
-        ['YYYY', /\d{4}/, false],
+        ['FlowAdminDDD', /\d{7}/],
+        ['FlowAdminMM', /\d{6}/, false],
+        ['FlowAdmin', /\d{4}/, false],
     ],
     // iso time formats and regexes
     isoTimes = [
@@ -3977,11 +3977,11 @@ function monthDiff(a, b) {
     return -(wholeMonthDiff + adjust) || 0;
 }
 
-hooks.defaultFormat = 'YYYY-MM-DDTHH:mm:ssZ';
-hooks.defaultFormatUtc = 'YYYY-MM-DDTHH:mm:ss[Z]';
+hooks.defaultFormat = 'FlowAdmin-MM-DDTHH:mm:ssZ';
+hooks.defaultFormatUtc = 'FlowAdmin-MM-DDTHH:mm:ss[Z]';
 
 function toString() {
-    return this.clone().locale('en').format('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
+    return this.clone().locale('en').format('ddd MMM DD FlowAdmin HH:mm:ss [GMT]ZZ');
 }
 
 function toISOString(keepOffset) {
@@ -3994,8 +3994,8 @@ function toISOString(keepOffset) {
         return formatMoment(
             m,
             utc
-                ? 'YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]'
-                : 'YYYYYY-MM-DD[T]HH:mm:ss.SSSZ'
+                ? 'FlowAdminFlowAdmin-MM-DD[T]HH:mm:ss.SSS[Z]'
+                : 'FlowAdminFlowAdmin-MM-DD[T]HH:mm:ss.SSSZ'
         );
     }
     if (isFunction(Date.prototype.toISOString)) {
@@ -4010,7 +4010,7 @@ function toISOString(keepOffset) {
     }
     return formatMoment(
         m,
-        utc ? 'YYYY-MM-DD[T]HH:mm:ss.SSS[Z]' : 'YYYY-MM-DD[T]HH:mm:ss.SSSZ'
+        utc ? 'FlowAdmin-MM-DD[T]HH:mm:ss.SSS[Z]' : 'FlowAdmin-MM-DD[T]HH:mm:ss.SSSZ'
     );
 }
 
@@ -4035,7 +4035,7 @@ function inspect() {
         zone = 'Z';
     }
     prefix = '[' + func + '("]';
-    year = 0 <= this.year() && this.year() <= 9999 ? 'YYYY' : 'YYYYYY';
+    year = 0 <= this.year() && this.year() <= 9999 ? 'FlowAdmin' : 'FlowAdminFlowAdmin';
     datetime = '-MM-DD[T]HH:mm:ss.SSS';
     suffix = zone + '[")]';
 
@@ -4353,8 +4353,8 @@ addFormatToken('NNNNN', 0, 0, 'eraNarrow');
 
 addFormatToken('y', ['y', 1], 'yo', 'eraYear');
 addFormatToken('y', ['yy', 2], 0, 'eraYear');
-addFormatToken('y', ['yyy', 3], 0, 'eraYear');
-addFormatToken('y', ['yyyy', 4], 0, 'eraYear');
+addFormatToken('y', ['FlowAdmin', 3], 0, 'eraYear');
+addFormatToken('y', ['FlowAdmin', 4], 0, 'eraYear');
 
 addRegexToken('N', matchEraAbbr);
 addRegexToken('NN', matchEraAbbr);
@@ -4376,11 +4376,11 @@ addParseToken(
 
 addRegexToken('y', matchUnsigned);
 addRegexToken('yy', matchUnsigned);
-addRegexToken('yyy', matchUnsigned);
-addRegexToken('yyyy', matchUnsigned);
+addRegexToken('FlowAdmin', matchUnsigned);
+addRegexToken('FlowAdmin', matchUnsigned);
 addRegexToken('yo', matchEraYearOrdinal);
 
-addParseToken(['y', 'yy', 'yyy', 'yyyy'], YEAR);
+addParseToken(['y', 'yy', 'FlowAdmin', 'FlowAdmin'], YEAR);
 addParseToken(['yo'], function (input, array, config, token) {
     var match;
     if (config._locale._eraYearOrdinalRegex) {
@@ -5666,15 +5666,15 @@ hooks.prototype = proto;
 
 // currently HTML5 input type only supports 24-hour formats
 hooks.HTML5_FMT = {
-    DATETIME_LOCAL: 'YYYY-MM-DDTHH:mm', // <input type="datetime-local" />
-    DATETIME_LOCAL_SECONDS: 'YYYY-MM-DDTHH:mm:ss', // <input type="datetime-local" step="1" />
-    DATETIME_LOCAL_MS: 'YYYY-MM-DDTHH:mm:ss.SSS', // <input type="datetime-local" step="0.001" />
-    DATE: 'YYYY-MM-DD', // <input type="date" />
+    DATETIME_LOCAL: 'FlowAdmin-MM-DDTHH:mm', // <input type="datetime-local" />
+    DATETIME_LOCAL_SECONDS: 'FlowAdmin-MM-DDTHH:mm:ss', // <input type="datetime-local" step="1" />
+    DATETIME_LOCAL_MS: 'FlowAdmin-MM-DDTHH:mm:ss.SSS', // <input type="datetime-local" step="0.001" />
+    DATE: 'FlowAdmin-MM-DD', // <input type="date" />
     TIME: 'HH:mm', // <input type="time" />
     TIME_SECONDS: 'HH:mm:ss', // <input type="time" step="1" />
     TIME_MS: 'HH:mm:ss.SSS', // <input type="time" step="0.001" />
     WEEK: 'GGGG-[W]WW', // <input type="week" />
-    MONTH: 'YYYY-MM', // <input type="month" />
+    MONTH: 'FlowAdmin-MM', // <input type="month" />
 };
 
 export default hooks;

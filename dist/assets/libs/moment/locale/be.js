@@ -59,10 +59,10 @@ export default moment.defineLocale('be', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'DD.MM.YYYY',
-        LL: 'D MMMM YYYY г.',
-        LLL: 'D MMMM YYYY г., HH:mm',
-        LLLL: 'dddd, D MMMM YYYY г., HH:mm',
+        L: 'DD.MM.FlowAdmin',
+        LL: 'D MMMM FlowAdmin г.',
+        LLL: 'D MMMM FlowAdmin г., HH:mm',
+        LLLL: 'dddd, D MMMM FlowAdmin г., HH:mm',
     },
     calendar: {
         sameDay: '[Сёння ў] LT',

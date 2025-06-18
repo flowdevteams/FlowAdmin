@@ -18,10 +18,10 @@ export default moment.defineLocale('tzl', {
     longDateFormat: {
         LT: 'HH.mm',
         LTS: 'HH.mm.ss',
-        L: 'DD.MM.YYYY',
-        LL: 'D. MMMM [dallas] YYYY',
-        LLL: 'D. MMMM [dallas] YYYY HH.mm',
-        LLLL: 'dddd, [li] D. MMMM [dallas] YYYY HH.mm',
+        L: 'DD.MM.FlowAdmin',
+        LL: 'D. MMMM [dallas] FlowAdmin',
+        LLL: 'D. MMMM [dallas] FlowAdmin HH.mm',
+        LLLL: 'dddd, [li] D. MMMM [dallas] FlowAdmin HH.mm',
     },
     meridiemParse: /d\'o|d\'a/i,
     isPM: function (input) {

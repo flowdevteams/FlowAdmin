@@ -1,6 +1,6 @@
 /*
 Template Name: Taildash - Responsive 5 Admin Dashboard
-Author: FlowDevTeams
+Author: Flowdev Teams
 File: vector map js
 */
 

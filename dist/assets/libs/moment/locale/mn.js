@@ -46,10 +46,10 @@ export default moment.defineLocale('mn', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'YYYY-MM-DD',
-        LL: 'YYYY оны MMMMын D',
-        LLL: 'YYYY оны MMMMын D HH:mm',
-        LLLL: 'dddd, YYYY оны MMMMын D HH:mm',
+        L: 'FlowAdmin-MM-DD',
+        LL: 'FlowAdmin оны MMMMын D',
+        LLL: 'FlowAdmin оны MMMMын D HH:mm',
+        LLLL: 'dddd, FlowAdmin оны MMMMын D HH:mm',
     },
     meridiemParse: /ҮӨ|ҮХ/i,
     isPM: function (input) {

@@ -14,10 +14,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'YYYY-MM-DD',
-    LL: 'YYYY-يىلىM-ئاينىڭD-كۈنى',
-    LLL: 'YYYY-يىلىM-ئاينىڭD-كۈنى، HH:mm',
-    LLLL: 'dddd، YYYY-يىلىM-ئاينىڭD-كۈنى، HH:mm'
+    L: 'FlowAdmin-MM-DD',
+    LL: 'FlowAdmin-يىلىM-ئاينىڭD-كۈنى',
+    LLL: 'FlowAdmin-يىلىM-ئاينىڭD-كۈنى، HH:mm',
+    LLLL: 'dddd، FlowAdmin-يىلىM-ئاينىڭD-كۈنى، HH:mm'
   },
   relativeTime: {
     future: '%s كېيىن',

@@ -14,10 +14,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD.MM.YYYY',
-    LL: 'MMMM D. [b.] YYYY',
-    LLL: 'MMMM D. [b.] YYYY [ti.] HH:mm',
-    LLLL: 'dddd, MMMM D. [b.] YYYY [ti.] HH:mm'
+    L: 'DD.MM.FlowAdmin',
+    LL: 'MMMM D. [b.] FlowAdmin',
+    LLL: 'MMMM D. [b.] FlowAdmin [ti.] HH:mm',
+    LLLL: 'dddd, MMMM D. [b.] FlowAdmin [ti.] HH:mm'
   },
   relativeTime: {
     future: '%s geažes',

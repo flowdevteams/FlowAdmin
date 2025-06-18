@@ -19,10 +19,10 @@ export default moment.defineLocale('nn', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'DD.MM.YYYY',
-        LL: 'D. MMMM YYYY',
-        LLL: 'D. MMMM YYYY [kl.] H:mm',
-        LLLL: 'dddd D. MMMM YYYY [kl.] HH:mm',
+        L: 'DD.MM.FlowAdmin',
+        LL: 'D. MMMM FlowAdmin',
+        LLL: 'D. MMMM FlowAdmin [kl.] H:mm',
+        LLLL: 'dddd D. MMMM FlowAdmin [kl.] HH:mm',
     },
     calendar: {
         sameDay: '[I dag klokka] LT',

@@ -67,10 +67,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD.MM.YYYY',
-    LL: 'D MMMM YYYY р.',
-    LLL: 'D MMMM YYYY р., HH:mm',
-    LLLL: 'dddd, D MMMM YYYY р., HH:mm'
+    L: 'DD.MM.FlowAdmin',
+    LL: 'D MMMM FlowAdmin р.',
+    LLL: 'D MMMM FlowAdmin р., HH:mm',
+    LLLL: 'dddd, D MMMM FlowAdmin р., HH:mm'
   }
 };
 dayjs.locale(locale, null, true);

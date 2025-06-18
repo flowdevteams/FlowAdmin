@@ -14,14 +14,14 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'D MMMM [năm] YYYY',
-    LLL: 'D MMMM [năm] YYYY HH:mm',
-    LLLL: 'dddd, D MMMM [năm] YYYY HH:mm',
-    l: 'DD/M/YYYY',
-    ll: 'D MMM YYYY',
-    lll: 'D MMM YYYY HH:mm',
-    llll: 'ddd, D MMM YYYY HH:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D MMMM [năm] FlowAdmin',
+    LLL: 'D MMMM [năm] FlowAdmin HH:mm',
+    LLLL: 'dddd, D MMMM [năm] FlowAdmin HH:mm',
+    l: 'DD/M/FlowAdmin',
+    ll: 'D MMM FlowAdmin',
+    lll: 'D MMM FlowAdmin HH:mm',
+    llll: 'ddd, D MMM FlowAdmin HH:mm'
   },
   relativeTime: {
     future: '%s tới',

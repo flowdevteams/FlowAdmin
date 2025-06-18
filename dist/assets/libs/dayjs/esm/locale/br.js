@@ -64,10 +64,10 @@ var locale = {
   formats: {
     LT: 'h[e]mm A',
     LTS: 'h[e]mm:ss A',
-    L: 'DD/MM/YYYY',
-    LL: 'D [a viz] MMMM YYYY',
-    LLL: 'D [a viz] MMMM YYYY h[e]mm A',
-    LLLL: 'dddd, D [a viz] MMMM YYYY h[e]mm A'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D [a viz] MMMM FlowAdmin',
+    LLL: 'D [a viz] MMMM FlowAdmin h[e]mm A',
+    LLLL: 'dddd, D [a viz] MMMM FlowAdmin h[e]mm A'
   },
   relativeTime: {
     future: 'a-benn %s',

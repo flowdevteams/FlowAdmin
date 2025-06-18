@@ -120,10 +120,10 @@ export default moment.defineLocale('br', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'DD/MM/YYYY',
-        LL: 'D [a viz] MMMM YYYY',
-        LLL: 'D [a viz] MMMM YYYY HH:mm',
-        LLLL: 'dddd, D [a viz] MMMM YYYY HH:mm',
+        L: 'DD/MM/FlowAdmin',
+        LL: 'D [a viz] MMMM FlowAdmin',
+        LLL: 'D [a viz] MMMM FlowAdmin HH:mm',
+        LLLL: 'dddd, D [a viz] MMMM FlowAdmin HH:mm',
     },
     calendar: {
         sameDay: '[Hiziv da] LT',

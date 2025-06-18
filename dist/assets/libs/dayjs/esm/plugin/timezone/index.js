@@ -149,7 +149,7 @@ export default (function (o, c, d) {
       return oldStartOf.call(this, units, startOf);
     }
 
-    var withoutTz = d(this.format('YYYY-MM-DD HH:mm:ss:SSS'));
+    var withoutTz = d(this.format('FlowAdmin-MM-DD HH:mm:ss:SSS'));
     var startOfWithoutTz = oldStartOf.call(withoutTz, units, startOf);
     return startOfWithoutTz.tz(this.$x.$timezone, true);
   };

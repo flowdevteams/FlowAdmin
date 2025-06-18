@@ -11,10 +11,10 @@ var locale = {
   formats: {
     LT: 'H:mm',
     LTS: 'H:mm:ss',
-    L: 'DD.MM.YYYY',
-    LL: 'D MMMM YYYY г.',
-    LLL: 'D MMMM YYYY г., H:mm',
-    LLLL: 'dddd, D MMMM YYYY г., H:mm'
+    L: 'DD.MM.FlowAdmin',
+    LL: 'D MMMM FlowAdmin г.',
+    LLL: 'D MMMM FlowAdmin г., H:mm',
+    LLLL: 'dddd, D MMMM FlowAdmin г., H:mm'
   },
   relativeTime: {
     future: '%s sonra',

@@ -10,10 +10,10 @@ var locale = {
   formats: {
     LT: 'H:mm',
     LTS: 'H:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'D MMMM YYYY',
-    LLL: 'D MMMM YYYY เวลา H:mm',
-    LLLL: 'วันddddที่ D MMMM YYYY เวลา H:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D MMMM FlowAdmin',
+    LLL: 'D MMMM FlowAdmin เวลา H:mm',
+    LLLL: 'วันddddที่ D MMMM FlowAdmin เวลา H:mm'
   },
   relativeTime: {
     future: 'อีก %s',

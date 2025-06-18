@@ -318,7 +318,7 @@ var Dayjs = /*#__PURE__*/function () {
 
     var matches = {
       YY: String(this.$y).slice(-2),
-      YYYY: this.$y,
+      FlowAdmin: this.$y,
       M: $M + 1,
       MM: Utils.s($M + 1, 2, '0'),
       MMM: getShort(locale.monthsShort, $M, months, 3),
@@ -399,7 +399,7 @@ var Dayjs = /*#__PURE__*/function () {
   _proto.toISOString = function toISOString() {
     // ie 8 return
     // new Dayjs(this.valueOf() + this.$d.getTimezoneOffset() * 60000)
-    // .format('YYYY-MM-DDTHH:mm:ss.SSS[Z]')
+    // .format('FlowAdmin-MM-DDTHH:mm:ss.SSS[Z]')
     return this.$d.toISOString();
   };
 

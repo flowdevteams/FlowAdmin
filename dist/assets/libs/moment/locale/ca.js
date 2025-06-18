@@ -30,13 +30,13 @@ export default moment.defineLocale('ca', {
     longDateFormat: {
         LT: 'H:mm',
         LTS: 'H:mm:ss',
-        L: 'DD/MM/YYYY',
-        LL: 'D MMMM [de] YYYY',
-        ll: 'D MMM YYYY',
-        LLL: 'D MMMM [de] YYYY [a les] H:mm',
-        lll: 'D MMM YYYY, H:mm',
-        LLLL: 'dddd D MMMM [de] YYYY [a les] H:mm',
-        llll: 'ddd D MMM YYYY, H:mm',
+        L: 'DD/MM/FlowAdmin',
+        LL: 'D MMMM [de] FlowAdmin',
+        ll: 'D MMM FlowAdmin',
+        LLL: 'D MMMM [de] FlowAdmin [a les] H:mm',
+        lll: 'D MMM FlowAdmin, H:mm',
+        LLLL: 'dddd D MMMM [de] FlowAdmin [a les] H:mm',
+        llll: 'ddd D MMM FlowAdmin, H:mm',
     },
     calendar: {
         sameDay: function () {

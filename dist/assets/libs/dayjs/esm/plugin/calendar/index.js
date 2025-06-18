@@ -1,6 +1,6 @@
 export default (function (o, c, d) {
   var LT = 'h:mm A';
-  var L = 'MM/DD/YYYY';
+  var L = 'MM/DD/FlowAdmin';
   var calendarFormat = {
     lastDay: "[Yesterday at] " + LT,
     sameDay: "[Today at] " + LT,

@@ -29,10 +29,10 @@ var locale = {
   formats: {
     LT: 'h:mm A',
     LTS: 'h:mm:ss A',
-    L: 'DD/MM/YYYY',
-    LL: 'D [de] MMMM [de] YYYY',
-    LLL: 'D [de] MMMM [de] YYYY h:mm A',
-    LLLL: 'dddd, D [de] MMMM [de] YYYY h:mm A'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D [de] MMMM [de] FlowAdmin',
+    LLL: 'D [de] MMMM [de] FlowAdmin h:mm A',
+    LLLL: 'dddd, D [de] MMMM [de] FlowAdmin h:mm A'
   }
 };
 dayjs.locale(locale, null, true);

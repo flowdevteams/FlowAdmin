@@ -27,10 +27,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'MMMM D ፣ YYYY',
-    LLL: 'MMMM D ፣ YYYY HH:mm',
-    LLLL: 'dddd ፣ MMMM D ፣ YYYY HH:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'MMMM D ፣ FlowAdmin',
+    LLL: 'MMMM D ፣ FlowAdmin HH:mm',
+    LLLL: 'dddd ፣ MMMM D ፣ FlowAdmin HH:mm'
   },
   ordinal: function ordinal(n) {
     return n + "\u129B";

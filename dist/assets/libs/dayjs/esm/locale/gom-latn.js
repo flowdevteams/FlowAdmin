@@ -14,11 +14,11 @@ var locale = {
   formats: {
     LT: 'A h:mm [vazta]',
     LTS: 'A h:mm:ss [vazta]',
-    L: 'DD-MM-YYYY',
-    LL: 'D MMMM YYYY',
-    LLL: 'D MMMM YYYY A h:mm [vazta]',
-    LLLL: 'dddd, MMMM[achea] Do, YYYY, A h:mm [vazta]',
-    llll: 'ddd, D MMM YYYY, A h:mm [vazta]'
+    L: 'DD-MM-FlowAdmin',
+    LL: 'D MMMM FlowAdmin',
+    LLL: 'D MMMM FlowAdmin A h:mm [vazta]',
+    LLLL: 'dddd, MMMM[achea] Do, FlowAdmin, A h:mm [vazta]',
+    llll: 'ddd, D MMM FlowAdmin, A h:mm [vazta]'
   }
 };
 dayjs.locale(locale, null, true);

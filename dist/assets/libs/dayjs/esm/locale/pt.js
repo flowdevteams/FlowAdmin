@@ -15,10 +15,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'D [de] MMMM [de] YYYY',
-    LLL: 'D [de] MMMM [de] YYYY [às] HH:mm',
-    LLLL: 'dddd, D [de] MMMM [de] YYYY [às] HH:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D [de] MMMM [de] FlowAdmin',
+    LLL: 'D [de] MMMM [de] FlowAdmin [às] HH:mm',
+    LLLL: 'dddd, D [de] MMMM [de] FlowAdmin [às] HH:mm'
   },
   relativeTime: {
     future: 'em %s',

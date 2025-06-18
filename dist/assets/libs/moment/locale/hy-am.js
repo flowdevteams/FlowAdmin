@@ -24,10 +24,10 @@ export default moment.defineLocale('hy-am', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'DD.MM.YYYY',
-        LL: 'D MMMM YYYY թ.',
-        LLL: 'D MMMM YYYY թ., HH:mm',
-        LLLL: 'dddd, D MMMM YYYY թ., HH:mm',
+        L: 'DD.MM.FlowAdmin',
+        LL: 'D MMMM FlowAdmin թ.',
+        LLL: 'D MMMM FlowAdmin թ., HH:mm',
+        LLLL: 'dddd, D MMMM FlowAdmin թ., HH:mm',
     },
     calendar: {
         sameDay: '[այսօր] LT',

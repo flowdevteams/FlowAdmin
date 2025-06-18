@@ -45,11 +45,11 @@ export default moment.defineLocale('gom-deva', {
     longDateFormat: {
         LT: 'A h:mm [वाजतां]',
         LTS: 'A h:mm:ss [वाजतां]',
-        L: 'DD-MM-YYYY',
-        LL: 'D MMMM YYYY',
-        LLL: 'D MMMM YYYY A h:mm [वाजतां]',
-        LLLL: 'dddd, MMMM Do, YYYY, A h:mm [वाजतां]',
-        llll: 'ddd, D MMM YYYY, A h:mm [वाजतां]',
+        L: 'DD-MM-FlowAdmin',
+        LL: 'D MMMM FlowAdmin',
+        LLL: 'D MMMM FlowAdmin A h:mm [वाजतां]',
+        LLLL: 'dddd, MMMM Do, FlowAdmin, A h:mm [वाजतां]',
+        llll: 'ddd, D MMM FlowAdmin, A h:mm [वाजतां]',
     },
     calendar: {
         sameDay: '[आयज] LT',

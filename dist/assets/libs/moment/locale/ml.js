@@ -22,10 +22,10 @@ export default moment.defineLocale('ml', {
     longDateFormat: {
         LT: 'A h:mm -നു',
         LTS: 'A h:mm:ss -നു',
-        L: 'DD/MM/YYYY',
-        LL: 'D MMMM YYYY',
-        LLL: 'D MMMM YYYY, A h:mm -നു',
-        LLLL: 'dddd, D MMMM YYYY, A h:mm -നു',
+        L: 'DD/MM/FlowAdmin',
+        LL: 'D MMMM FlowAdmin',
+        LLL: 'D MMMM FlowAdmin, A h:mm -നു',
+        LLLL: 'dddd, D MMMM FlowAdmin, A h:mm -നു',
     },
     calendar: {
         sameDay: '[ഇന്ന്] LT',

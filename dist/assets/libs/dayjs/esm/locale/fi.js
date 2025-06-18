@@ -74,14 +74,14 @@ var locale = {
   formats: {
     LT: 'HH.mm',
     LTS: 'HH.mm.ss',
-    L: 'DD.MM.YYYY',
-    LL: 'D. MMMM[ta] YYYY',
-    LLL: 'D. MMMM[ta] YYYY, [klo] HH.mm',
-    LLLL: 'dddd, D. MMMM[ta] YYYY, [klo] HH.mm',
-    l: 'D.M.YYYY',
-    ll: 'D. MMM YYYY',
-    lll: 'D. MMM YYYY, [klo] HH.mm',
-    llll: 'ddd, D. MMM YYYY, [klo] HH.mm'
+    L: 'DD.MM.FlowAdmin',
+    LL: 'D. MMMM[ta] FlowAdmin',
+    LLL: 'D. MMMM[ta] FlowAdmin, [klo] HH.mm',
+    LLLL: 'dddd, D. MMMM[ta] FlowAdmin, [klo] HH.mm',
+    l: 'D.M.FlowAdmin',
+    ll: 'D. MMM FlowAdmin',
+    lll: 'D. MMM FlowAdmin, [klo] HH.mm',
+    llll: 'ddd, D. MMM FlowAdmin, [klo] HH.mm'
   }
 };
 dayjs.locale(locale, null, true);

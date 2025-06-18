@@ -52,26 +52,26 @@ var locale = {
   format: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'D [ב]MMMM YYYY',
-    LLL: 'D [ב]MMMM YYYY HH:mm',
-    LLLL: 'dddd, D [ב]MMMM YYYY HH:mm',
-    l: 'D/M/YYYY',
-    ll: 'D MMM YYYY',
-    lll: 'D MMM YYYY HH:mm',
-    llll: 'ddd, D MMM YYYY HH:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D [ב]MMMM FlowAdmin',
+    LLL: 'D [ב]MMMM FlowAdmin HH:mm',
+    LLLL: 'dddd, D [ב]MMMM FlowAdmin HH:mm',
+    l: 'D/M/FlowAdmin',
+    ll: 'D MMM FlowAdmin',
+    lll: 'D MMM FlowAdmin HH:mm',
+    llll: 'ddd, D MMM FlowAdmin HH:mm'
   },
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'D [ב]MMMM YYYY',
-    LLL: 'D [ב]MMMM YYYY HH:mm',
-    LLLL: 'dddd, D [ב]MMMM YYYY HH:mm',
-    l: 'D/M/YYYY',
-    ll: 'D MMM YYYY',
-    lll: 'D MMM YYYY HH:mm',
-    llll: 'ddd, D MMM YYYY HH:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D [ב]MMMM FlowAdmin',
+    LLL: 'D [ב]MMMM FlowAdmin HH:mm',
+    LLLL: 'dddd, D [ב]MMMM FlowAdmin HH:mm',
+    l: 'D/M/FlowAdmin',
+    ll: 'D MMM FlowAdmin',
+    lll: 'D MMM FlowAdmin HH:mm',
+    llll: 'ddd, D MMM FlowAdmin HH:mm'
   }
 };
 dayjs.locale(locale, null, true);

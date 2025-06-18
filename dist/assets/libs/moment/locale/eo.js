@@ -18,11 +18,11 @@ export default moment.defineLocale('eo', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'YYYY-MM-DD',
-        LL: '[la] D[-an de] MMMM, YYYY',
-        LLL: '[la] D[-an de] MMMM, YYYY HH:mm',
-        LLLL: 'dddd[n], [la] D[-an de] MMMM, YYYY HH:mm',
-        llll: 'ddd, [la] D[-an de] MMM, YYYY HH:mm',
+        L: 'FlowAdmin-MM-DD',
+        LL: '[la] D[-an de] MMMM, FlowAdmin',
+        LLL: '[la] D[-an de] MMMM, FlowAdmin HH:mm',
+        LLLL: 'dddd[n], [la] D[-an de] MMMM, FlowAdmin HH:mm',
+        llll: 'ddd, [la] D[-an de] MMM, FlowAdmin HH:mm',
     },
     meridiemParse: /[ap]\.t\.m/i,
     isPM: function (input) {

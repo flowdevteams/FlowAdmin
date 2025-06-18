@@ -1,12 +1,12 @@
 {
-    "name": "FlowDev",
+    "name": "FlowAdmin",
     "version": "1.0",
-    "description": "FlowDev - Tailwind CSS 3 Admin Layout & UI Kit Template",
+    "description": "FlowAdmin - Tailwind CSS 3 Admin Layout & UI Kit Template",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "FlowDevTeams",
+    "author": "Flowdev Teams",
     "private": true,
     "browserslist": [
         "defaults and supports es6-module",

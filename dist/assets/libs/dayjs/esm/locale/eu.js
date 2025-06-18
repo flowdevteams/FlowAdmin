@@ -14,14 +14,14 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'YYYY-MM-DD',
-    LL: 'YYYY[ko] MMMM[ren] D[a]',
-    LLL: 'YYYY[ko] MMMM[ren] D[a] HH:mm',
-    LLLL: 'dddd, YYYY[ko] MMMM[ren] D[a] HH:mm',
-    l: 'YYYY-M-D',
-    ll: 'YYYY[ko] MMM D[a]',
-    lll: 'YYYY[ko] MMM D[a] HH:mm',
-    llll: 'ddd, YYYY[ko] MMM D[a] HH:mm'
+    L: 'FlowAdmin-MM-DD',
+    LL: 'FlowAdmin[ko] MMMM[ren] D[a]',
+    LLL: 'FlowAdmin[ko] MMMM[ren] D[a] HH:mm',
+    LLLL: 'dddd, FlowAdmin[ko] MMMM[ren] D[a] HH:mm',
+    l: 'FlowAdmin-M-D',
+    ll: 'FlowAdmin[ko] MMM D[a]',
+    lll: 'FlowAdmin[ko] MMM D[a] HH:mm',
+    llll: 'ddd, FlowAdmin[ko] MMM D[a] HH:mm'
   },
   relativeTime: {
     future: '%s barru',

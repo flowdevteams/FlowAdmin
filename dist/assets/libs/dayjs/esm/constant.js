@@ -18,7 +18,7 @@ export var M = 'month';
 export var Q = 'quarter';
 export var Y = 'year';
 export var DATE = 'date';
-export var FORMAT_DEFAULT = 'YYYY-MM-DDTHH:mm:ssZ';
+export var FORMAT_DEFAULT = 'FlowAdmin-MM-DDTHH:mm:ssZ';
 export var INVALID_DATE_STRING = 'Invalid Date'; // regex
 
 export var REGEX_PARSE = /^(\d{4})[-/]?(\d{1,2})?[-/]?(\d{0,2})[Tt\s]*(\d{1,2})?:?(\d{1,2})?:?(\d{1,2})?[.:]?(\d+)?$/;

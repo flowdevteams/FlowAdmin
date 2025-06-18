@@ -8,16 +8,16 @@ import moment from 'moment';
 import { _adapters } from 'chart.js';
 
 const FORMATS = {
-  datetime: 'MMM D, YYYY, h:mm:ss a',
+  datetime: 'MMM D, FlowAdmin, h:mm:ss a',
   millisecond: 'h:mm:ss.SSS a',
   second: 'h:mm:ss a',
   minute: 'h:mm a',
   hour: 'hA',
   day: 'MMM D',
   week: 'll',
-  month: 'MMM YYYY',
-  quarter: '[Q]Q - YYYY',
-  year: 'YYYY'
+  month: 'MMM FlowAdmin',
+  quarter: '[Q]Q - FlowAdmin',
+  year: 'FlowAdmin'
 };
 
 _adapters._date.override(typeof moment === 'function' ? {

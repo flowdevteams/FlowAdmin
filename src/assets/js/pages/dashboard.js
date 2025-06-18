@@ -1,6 +1,6 @@
 /**
-* Theme: FlowDev - Tailwind CSS 3 Admin Layout & UI Kit Template
-* Author: FlowDevTeams
+* Theme: FlowAdmin - Tailwind CSS 3 Admin Layout & UI Kit Template
+* Author: Flowdev Teams
 * Module/App: dashboard js
 */
 

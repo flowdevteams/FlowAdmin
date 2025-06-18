@@ -1,5 +1,5 @@
-# FlowDev - Tailwind CSS 3 Admin Layout & UI Kit Template
-We would like to thank you for purchasing FlowDev :). The following guideline will help you to get started with the hyper and its documentation.
+# FlowAdmin - Tailwind CSS 3 Admin Layout & UI Kit Template
+We would like to thank you for purchasing FlowAdmin :). The following guideline will help you to get started with the hyper and its documentation.
 
 #### Docs and Examples
 

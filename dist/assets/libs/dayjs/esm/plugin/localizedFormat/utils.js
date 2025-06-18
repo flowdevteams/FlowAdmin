@@ -7,10 +7,10 @@ export var t = function t(format) {
 export var englishFormats = {
   LTS: 'h:mm:ss A',
   LT: 'h:mm A',
-  L: 'MM/DD/YYYY',
-  LL: 'MMMM D, YYYY',
-  LLL: 'MMMM D, YYYY h:mm A',
-  LLLL: 'dddd, MMMM D, YYYY h:mm A'
+  L: 'MM/DD/FlowAdmin',
+  LL: 'MMMM D, FlowAdmin',
+  LLL: 'MMMM D, FlowAdmin h:mm A',
+  LLLL: 'dddd, MMMM D, FlowAdmin h:mm A'
 };
 export var u = function u(formatStr, formats) {
   return formatStr.replace(/(\[[^\]]+])|(LTS?|l{1,4}|L{1,4})/g, function (_, a, b) {

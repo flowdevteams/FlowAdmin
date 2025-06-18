@@ -14,10 +14,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD-MM-YYYY',
-    LL: 'YYYY [ҫулхи] MMMM [уйӑхӗн] D[-мӗшӗ]',
-    LLL: 'YYYY [ҫулхи] MMMM [уйӑхӗн] D[-мӗшӗ], HH:mm',
-    LLLL: 'dddd, YYYY [ҫулхи] MMMM [уйӑхӗн] D[-мӗшӗ], HH:mm'
+    L: 'DD-MM-FlowAdmin',
+    LL: 'FlowAdmin [ҫулхи] MMMM [уйӑхӗн] D[-мӗшӗ]',
+    LLL: 'FlowAdmin [ҫулхи] MMMM [уйӑхӗн] D[-мӗшӗ], HH:mm',
+    LLLL: 'dddd, FlowAdmin [ҫулхи] MMMM [уйӑхӗн] D[-мӗшӗ], HH:mm'
   }
 };
 dayjs.locale(locale, null, true);

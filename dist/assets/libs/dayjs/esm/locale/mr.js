@@ -13,10 +13,10 @@ var locale = {
   formats: {
     LT: 'A h:mm वाजता',
     LTS: 'A h:mm:ss वाजता',
-    L: 'DD/MM/YYYY',
-    LL: 'D MMMM YYYY',
-    LLL: 'D MMMM YYYY, A h:mm वाजता',
-    LLLL: 'dddd, D MMMM YYYY, A h:mm वाजता'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D MMMM FlowAdmin',
+    LLL: 'D MMMM FlowAdmin, A h:mm वाजता',
+    LLLL: 'dddd, D MMMM FlowAdmin, A h:mm वाजता'
   }
 };
 dayjs.locale(locale, null, true);

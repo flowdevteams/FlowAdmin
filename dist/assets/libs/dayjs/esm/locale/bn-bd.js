@@ -50,10 +50,10 @@ var locale = {
   formats: {
     LT: 'A h:mm সময়',
     LTS: 'A h:mm:ss সময়',
-    L: 'DD/MM/YYYY খ্রিস্টাব্দ',
-    LL: 'D MMMM YYYY খ্রিস্টাব্দ',
-    LLL: 'D MMMM YYYY খ্রিস্টাব্দ, A h:mm সময়',
-    LLLL: 'dddd, D MMMM YYYY খ্রিস্টাব্দ, A h:mm সময়'
+    L: 'DD/MM/FlowAdmin খ্রিস্টাব্দ',
+    LL: 'D MMMM FlowAdmin খ্রিস্টাব্দ',
+    LLL: 'D MMMM FlowAdmin খ্রিস্টাব্দ, A h:mm সময়',
+    LLLL: 'dddd, D MMMM FlowAdmin খ্রিস্টাব্দ, A h:mm সময়'
   },
   meridiem: function meridiem(hour) {
     return (

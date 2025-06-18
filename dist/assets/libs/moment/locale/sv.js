@@ -15,12 +15,12 @@ export default moment.defineLocale('sv', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'YYYY-MM-DD',
-        LL: 'D MMMM YYYY',
-        LLL: 'D MMMM YYYY [kl.] HH:mm',
-        LLLL: 'dddd D MMMM YYYY [kl.] HH:mm',
-        lll: 'D MMM YYYY HH:mm',
-        llll: 'ddd D MMM YYYY HH:mm',
+        L: 'FlowAdmin-MM-DD',
+        LL: 'D MMMM FlowAdmin',
+        LLL: 'D MMMM FlowAdmin [kl.] HH:mm',
+        LLLL: 'dddd D MMMM FlowAdmin [kl.] HH:mm',
+        lll: 'D MMM FlowAdmin HH:mm',
+        llll: 'ddd D MMM FlowAdmin HH:mm',
     },
     calendar: {
         sameDay: '[Idag] LT',

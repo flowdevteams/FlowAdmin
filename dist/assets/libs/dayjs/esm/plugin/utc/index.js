@@ -140,7 +140,7 @@ export default (function (option, Dayjs, dayjs) {
   };
 
   var oldFormat = proto.format;
-  var UTC_FORMAT_DEFAULT = 'YYYY-MM-DDTHH:mm:ss[Z]';
+  var UTC_FORMAT_DEFAULT = 'FlowAdmin-MM-DDTHH:mm:ss[Z]';
 
   proto.format = function (formatStr) {
     var str = formatStr || (this.$u ? UTC_FORMAT_DEFAULT : '');
@@ -168,7 +168,7 @@ export default (function (option, Dayjs, dayjs) {
 
   proto.toDate = function (type) {
     if (type === 's' && this.$offset) {
-      return dayjs(this.format('YYYY-MM-DD HH:mm:ss:SSS')).toDate();
+      return dayjs(this.format('FlowAdmin-MM-DD HH:mm:ss:SSS')).toDate();
     }
 
     return oldToDate.call(this);

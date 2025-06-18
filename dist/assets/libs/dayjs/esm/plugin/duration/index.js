@@ -174,11 +174,11 @@ var Duration = /*#__PURE__*/function () {
   };
 
   _proto.format = function format(formatStr) {
-    var str = formatStr || 'YYYY-MM-DDTHH:mm:ss';
+    var str = formatStr || 'FlowAdmin-MM-DDTHH:mm:ss';
     var matches = {
       Y: this.$d.years,
       YY: $u.s(this.$d.years, 2, '0'),
-      YYYY: $u.s(this.$d.years, 4, '0'),
+      FlowAdmin: $u.s(this.$d.years, 4, '0'),
       M: this.$d.months,
       MM: $u.s(this.$d.months, 2, '0'),
       D: this.$d.days,

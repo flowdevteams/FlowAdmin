@@ -111,11 +111,11 @@ export default moment.defineLocale('cs', {
     longDateFormat: {
         LT: 'H:mm',
         LTS: 'H:mm:ss',
-        L: 'DD.MM.YYYY',
-        LL: 'D. MMMM YYYY',
-        LLL: 'D. MMMM YYYY H:mm',
-        LLLL: 'dddd D. MMMM YYYY H:mm',
-        l: 'D. M. YYYY',
+        L: 'DD.MM.FlowAdmin',
+        LL: 'D. MMMM FlowAdmin',
+        LLL: 'D. MMMM FlowAdmin H:mm',
+        LLLL: 'dddd D. MMMM FlowAdmin H:mm',
+        l: 'D. M. FlowAdmin',
     },
     calendar: {
         sameDay: '[dnes v] LT',

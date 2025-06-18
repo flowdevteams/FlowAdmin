@@ -18,10 +18,10 @@ export default moment.defineLocale('fil', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'MM/D/YYYY',
-        LL: 'MMMM D, YYYY',
-        LLL: 'MMMM D, YYYY HH:mm',
-        LLLL: 'dddd, MMMM DD, YYYY HH:mm',
+        L: 'MM/D/FlowAdmin',
+        LL: 'MMMM D, FlowAdmin',
+        LLL: 'MMMM D, FlowAdmin HH:mm',
+        LLLL: 'dddd, MMMM DD, FlowAdmin HH:mm',
     },
     calendar: {
         sameDay: 'LT [ngayong araw]',

@@ -47,10 +47,10 @@ var locale = {
   formats: {
     LT: 'A h:mm সময়',
     LTS: 'A h:mm:ss সময়',
-    L: 'DD/MM/YYYY',
-    LL: 'D MMMM YYYY',
-    LLL: 'D MMMM YYYY, A h:mm সময়',
-    LLLL: 'dddd, D MMMM YYYY, A h:mm সময়'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D MMMM FlowAdmin',
+    LLL: 'D MMMM FlowAdmin, A h:mm সময়',
+    LLLL: 'dddd, D MMMM FlowAdmin, A h:mm সময়'
   },
   relativeTime: {
     future: '%s পরে',

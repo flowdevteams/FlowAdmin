@@ -20,10 +20,10 @@ export default moment.defineLocale('ug-cn', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'YYYY-MM-DD',
-        LL: 'YYYY-يىلىM-ئاينىڭD-كۈنى',
-        LLL: 'YYYY-يىلىM-ئاينىڭD-كۈنى، HH:mm',
-        LLLL: 'dddd، YYYY-يىلىM-ئاينىڭD-كۈنى، HH:mm',
+        L: 'FlowAdmin-MM-DD',
+        LL: 'FlowAdmin-يىلىM-ئاينىڭD-كۈنى',
+        LLL: 'FlowAdmin-يىلىM-ئاينىڭD-كۈنى، HH:mm',
+        LLLL: 'dddd، FlowAdmin-يىلىM-ئاينىڭD-كۈنى، HH:mm',
     },
     meridiemParse: /يېرىم كېچە|سەھەر|چۈشتىن بۇرۇن|چۈش|چۈشتىن كېيىن|كەچ/,
     meridiemHour: function (hour, meridiem) {

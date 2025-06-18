@@ -53,10 +53,10 @@ export default moment.defineLocale('me', {
     longDateFormat: {
         LT: 'H:mm',
         LTS: 'H:mm:ss',
-        L: 'DD.MM.YYYY',
-        LL: 'D. MMMM YYYY',
-        LLL: 'D. MMMM YYYY H:mm',
-        LLLL: 'dddd, D. MMMM YYYY H:mm',
+        L: 'DD.MM.FlowAdmin',
+        LL: 'D. MMMM FlowAdmin',
+        LLL: 'D. MMMM FlowAdmin H:mm',
+        LLLL: 'dddd, D. MMMM FlowAdmin H:mm',
     },
     calendar: {
         sameDay: '[danas u] LT',

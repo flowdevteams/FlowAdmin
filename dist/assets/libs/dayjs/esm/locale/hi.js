@@ -13,10 +13,10 @@ var locale = {
   formats: {
     LT: 'A h:mm बजे',
     LTS: 'A h:mm:ss बजे',
-    L: 'DD/MM/YYYY',
-    LL: 'D MMMM YYYY',
-    LLL: 'D MMMM YYYY, A h:mm बजे',
-    LLLL: 'dddd, D MMMM YYYY, A h:mm बजे'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'D MMMM FlowAdmin',
+    LLL: 'D MMMM FlowAdmin, A h:mm बजे',
+    LLLL: 'dddd, D MMMM FlowAdmin, A h:mm बजे'
   },
   relativeTime: {
     future: '%s में',

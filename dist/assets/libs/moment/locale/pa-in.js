@@ -46,10 +46,10 @@ export default moment.defineLocale('pa-in', {
     longDateFormat: {
         LT: 'A h:mm ਵਜੇ',
         LTS: 'A h:mm:ss ਵਜੇ',
-        L: 'DD/MM/YYYY',
-        LL: 'D MMMM YYYY',
-        LLL: 'D MMMM YYYY, A h:mm ਵਜੇ',
-        LLLL: 'dddd, D MMMM YYYY, A h:mm ਵਜੇ',
+        L: 'DD/MM/FlowAdmin',
+        LL: 'D MMMM FlowAdmin',
+        LLL: 'D MMMM FlowAdmin, A h:mm ਵਜੇ',
+        LLLL: 'dddd, D MMMM FlowAdmin, A h:mm ਵਜੇ',
     },
     calendar: {
         sameDay: '[ਅਜ] LT',

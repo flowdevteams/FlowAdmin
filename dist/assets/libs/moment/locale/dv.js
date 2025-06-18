@@ -37,10 +37,10 @@ export default moment.defineLocale('dv', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'D/M/YYYY',
-        LL: 'D MMMM YYYY',
-        LLL: 'D MMMM YYYY HH:mm',
-        LLLL: 'dddd D MMMM YYYY HH:mm',
+        L: 'D/M/FlowAdmin',
+        LL: 'D MMMM FlowAdmin',
+        LLL: 'D MMMM FlowAdmin HH:mm',
+        LLLL: 'dddd D MMMM FlowAdmin HH:mm',
     },
     meridiemParse: /މކ|މފ/,
     isPM: function (input) {

@@ -14,10 +14,10 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'MMMM [tile] D [san] YYYY',
-    LLL: 'MMMM [tile] D [san] YYYY [lɛrɛ] HH:mm',
-    LLLL: 'dddd MMMM [tile] D [san] YYYY [lɛrɛ] HH:mm'
+    L: 'DD/MM/FlowAdmin',
+    LL: 'MMMM [tile] D [san] FlowAdmin',
+    LLL: 'MMMM [tile] D [san] FlowAdmin [lɛrɛ] HH:mm',
+    LLLL: 'dddd MMMM [tile] D [san] FlowAdmin [lɛrɛ] HH:mm'
   },
   relativeTime: {
     future: '%s kɔnɔ',

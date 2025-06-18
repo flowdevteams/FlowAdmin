@@ -1,6 +1,6 @@
 /*
-Template Name: FlowDev - Tailwind CSS 3 Admin Layout & UI Kit Template
-Author: FlowDevTeams
+Template Name: FlowAdmin - Tailwind CSS 3 Admin Layout & UI Kit Template
+Author: Flowdev Teams
 File: Quilljs init js
 */
 

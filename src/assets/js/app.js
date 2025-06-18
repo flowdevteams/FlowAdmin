@@ -1,6 +1,6 @@
 /**
 * Theme: Taildash - Tailwind CSS 3 Admin Layout & UI Kit Template
-* Author: FlowDevTeams
+* Author: Flowdev Teams
 * Module/App: App js
 */
 

@@ -13,14 +13,14 @@ var locale = {
   formats: {
     LT: 'HH:mm',
     LTS: 'HH:mm:ss',
-    L: 'YYYY/MM/DD',
-    LL: 'YYYY年M月D日',
-    LLL: 'YYYY年M月D日 HH:mm',
-    LLLL: 'YYYY年M月D日 dddd HH:mm',
-    l: 'YYYY/MM/DD',
-    ll: 'YYYY年M月D日',
-    lll: 'YYYY年M月D日 HH:mm',
-    llll: 'YYYY年M月D日(ddd) HH:mm'
+    L: 'FlowAdmin/MM/DD',
+    LL: 'FlowAdmin年M月D日',
+    LLL: 'FlowAdmin年M月D日 HH:mm',
+    LLLL: 'FlowAdmin年M月D日 dddd HH:mm',
+    l: 'FlowAdmin/MM/DD',
+    ll: 'FlowAdmin年M月D日',
+    lll: 'FlowAdmin年M月D日 HH:mm',
+    llll: 'FlowAdmin年M月D日(ddd) HH:mm'
   },
   meridiem: function meridiem(hour) {
     return hour < 12 ? '午前' : '午後';

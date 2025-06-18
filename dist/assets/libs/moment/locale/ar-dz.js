@@ -106,10 +106,10 @@ export default moment.defineLocale('ar-dz', {
     longDateFormat: {
         LT: 'HH:mm',
         LTS: 'HH:mm:ss',
-        L: 'D/\u200FM/\u200FYYYY',
-        LL: 'D MMMM YYYY',
-        LLL: 'D MMMM YYYY HH:mm',
-        LLLL: 'dddd D MMMM YYYY HH:mm',
+        L: 'D/\u200FM/\u200FFlowAdmin',
+        LL: 'D MMMM FlowAdmin',
+        LLL: 'D MMMM FlowAdmin HH:mm',
+        LLLL: 'dddd D MMMM FlowAdmin HH:mm',
     },
     meridiemParse: /ص|م/,
     isPM: function (input) {

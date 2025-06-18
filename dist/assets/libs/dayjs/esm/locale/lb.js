@@ -14,10 +14,10 @@ var locale = {
   formats: {
     LT: 'H:mm [Auer]',
     LTS: 'H:mm:ss [Auer]',
-    L: 'DD.MM.YYYY',
-    LL: 'D. MMMM YYYY',
-    LLL: 'D. MMMM YYYY H:mm [Auer]',
-    LLLL: 'dddd, D. MMMM YYYY H:mm [Auer]'
+    L: 'DD.MM.FlowAdmin',
+    LL: 'D. MMMM FlowAdmin',
+    LLL: 'D. MMMM FlowAdmin H:mm [Auer]',
+    LLLL: 'dddd, D. MMMM FlowAdmin H:mm [Auer]'
   }
 };
 dayjs.locale(locale, null, true);

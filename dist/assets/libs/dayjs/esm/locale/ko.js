@@ -13,14 +13,14 @@ var locale = {
   formats: {
     LT: 'A h:mm',
     LTS: 'A h:mm:ss',
-    L: 'YYYY.MM.DD.',
-    LL: 'YYYY년 MMMM D일',
-    LLL: 'YYYY년 MMMM D일 A h:mm',
-    LLLL: 'YYYY년 MMMM D일 dddd A h:mm',
-    l: 'YYYY.MM.DD.',
-    ll: 'YYYY년 MMMM D일',
-    lll: 'YYYY년 MMMM D일 A h:mm',
-    llll: 'YYYY년 MMMM D일 dddd A h:mm'
+    L: 'FlowAdmin.MM.DD.',
+    LL: 'FlowAdmin년 MMMM D일',
+    LLL: 'FlowAdmin년 MMMM D일 A h:mm',
+    LLLL: 'FlowAdmin년 MMMM D일 dddd A h:mm',
+    l: 'FlowAdmin.MM.DD.',
+    ll: 'FlowAdmin년 MMMM D일',
+    lll: 'FlowAdmin년 MMMM D일 A h:mm',
+    llll: 'FlowAdmin년 MMMM D일 dddd A h:mm'
   },
   meridiem: function meridiem(hour) {
     return hour < 12 ? '오전' : '오후';

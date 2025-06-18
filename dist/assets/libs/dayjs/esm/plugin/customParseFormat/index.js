@@ -1,5 +1,5 @@
 import { u } from '../localizedFormat/utils';
-var formattingTokens = /(\[[^[]*\])|([-_:/.,()\s]+)|(A|a|YYYY|YY?|MM?M?M?|Do|DD?|hh?|HH?|mm?|ss?|S{1,3}|z|ZZ?)/g;
+var formattingTokens = /(\[[^[]*\])|([-_:/.,()\s]+)|(A|a|FlowAdmin|YY?|MM?M?M?|Do|DD?|hh?|HH?|mm?|ss?|S{1,3}|z|ZZ?)/g;
 var match1 = /\d/; // 0 - 9
 
 var match2 = /\d\d/; // 00 - 99
@@ -137,7 +137,7 @@ var expressions = {
   YY: [match2, function (input) {
     this.year = parseTwoDigitYear(input);
   }],
-  YYYY: [match4, addInput('year')],
+  FlowAdmin: [match4, addInput('year')],
   Z: zoneExpressions,
   ZZ: zoneExpressions
 };
